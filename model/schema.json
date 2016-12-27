@@ -2,12 +2,9 @@
   "intents": [
     { "intent": "AMAZON.CancelIntent" },
     { "intent": "AMAZON.HelpIntent" },
+    { "intent": "AMAZON.NoIntent" },
     { "intent": "AMAZON.StopIntent" },
-    {
-      "intent": "hello",
-      "slots": [
-        { "name": "name", "type": "LITERAL" }
-      ]
-    }
+    { "intent": "AMAZON.YesIntent" },
+    { "intent": "Station" }
   ]
 }
